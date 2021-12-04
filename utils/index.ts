@@ -11,3 +11,9 @@ export const readInputsAsInt = (path: string):  number[] => {
 
     return data
 }
+
+export const readInputsOn = (path: string, splitOn: string): string[] => {
+    let data = fs.readFileSync(path, "utf8").split(splitOn)
+
+    return data
+}
