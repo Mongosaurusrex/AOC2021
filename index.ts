@@ -1,7 +1,10 @@
 import { dayonefirst, dayonesecond } from "./day1"
 import { daytwofirst, daytwosecond } from "./day2"
+import { daythreefirst, daythreesecond } from "./day3"
 
 console.log(`Result from 1.1: ${dayonefirst()}`)
 console.log(`Result from 1.2: ${dayonesecond()}`)
-console.log(`Result from 1.2: ${daytwofirst()}`)
-console.log(`Result from 1.2: ${daytwosecond()}`)
+console.log(`Result from 2.1: ${daytwofirst()}`)
+console.log(`Result from 2.2: ${daytwosecond()}`)
+console.log(`Result from 3.1: ${daythreefirst()}`)
+console.log(`Result from 3.2: ${daythreesecond()}`)
