@@ -4,6 +4,7 @@ import { daythreefirst, daythreesecond } from "./day3"
 import { dayfourfirst, dayfoursecond } from "./day4"
 import { dayfivefirst, dayfivesecond } from "./day5"
 import { daysixfirst, daysixsecond } from "./day6"
+import { daysevenfirst, daysevensecond } from "./day7"
 
 console.log(`Result from 1.1: ${dayonefirst()}`)
 console.log(`Result from 1.2: ${dayonesecond()}`)
@@ -17,3 +18,5 @@ console.log(`Result from 5.1: ${dayfivefirst()}`)
 console.log(`Result from 5.2: ${dayfivesecond()}`)
 console.log(`Result from 6.1: ${daysixfirst()}`)
 console.log(`Result from 6.2: ${daysixsecond()}`)
+console.log(`Result from 7.1: ${daysevenfirst()}`)
+console.log(`Result from 7.2: ${daysevensecond()}`)
